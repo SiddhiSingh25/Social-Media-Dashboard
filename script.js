@@ -18,6 +18,7 @@ function lightMode(){
     document.querySelector(".toggle-label").style.background="hsl(230, 22%, 74%)"
     document.querySelector(".container").style.backgroundColor ="#fff"
     document.querySelector(".abc-box p").innerHTML ="Light Mode"
+    document.querySelector(".abc-box p").style.color ="hsl(228, 12%, 44%)"
     document.querySelector(".bottom h3").style.color ="hsl(228, 28%, 20%)"
     document.querySelector(".bottom h3").style.fontWeight ="750"
     
@@ -58,6 +59,7 @@ function darkMode(){
     document.querySelector(".toggle-label").style.background="linear-gradient(90deg, #388FE7 0%, #40DB86 100%) "
     document.querySelector(".container").style.backgroundColor ="#1a1e23"
     document.querySelector(".abc-box p").innerHTML ="Dark Mode"
+    document.querySelector(".abc-box p").style.color ="rgb(139, 151, 198)"
     document.querySelector(".bottom h3").style.color ="#fff"
     // Top boxes
     let box = document.querySelectorAll(".box")
