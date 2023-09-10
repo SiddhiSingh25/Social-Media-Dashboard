@@ -295,7 +295,7 @@ transform: translateX(12px);
 }.bottom{
   height:fit-content;
   width: 100vw;
-  padding-bottom:235px;
+  
 }
 
 .topdash{
@@ -330,33 +330,30 @@ transform: translateX(12px);
   justify-content: space-between;
   margin-bottom: 5px;
   flex-direction: row;
-  width: 100%;
+  width: 35vh;
+  
+}.topdash P{
+  font-size: 1.3vh;
+}
+.abc-bx h3{
+  font-size: 2.1vh;
 }
 .abc-bx{
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin-right: 130px;
-  width: 0px;
-
+  margin-right: 0px;
+  width: 35vh;
 }
 .toggle-label{
   height: 27px;
   width: 42px;
-  border-radius: 5vw;
-  background: linear-gradient(90deg, #388FE7 0%, #40DB86 100%) ;
-  position: relative;
-  display: inline-block;
 }
 .toggle-ball{
-  height: 1.4vw;
-  width: 1.4vw;
-  border-radius:50% ;
-  background-color: hsl(232, 19%, 15%);
-  position: absolute;
-  top: .246vw;
-  left: .37vw;
-  display: inline-block;
+  height: 2.4vh;
+  width: 2.4vh;
+  top: .35vh;
+  left: .4vh;
 }
 .top2{
   display: flex;
@@ -366,7 +363,7 @@ transform: translateX(12px);
   flex-wrap: wrap;
 }
 .box{
-  height: 25vh;
+  height: 23vh;
   width: 35vh;
   border-radius: 4px;
   background-color:  hsl(228, 28%, 20%);
@@ -392,30 +389,31 @@ transform: translateX(12px);
   align-items: center;
   justify-content: center;
   gap: 5px;
-  margin-top: 15px;
-  margin-bottom:15px ;
+  margin-top: 1.8vh;
+  margin-bottom:1.8vh ;
   
 }
 .mbox h1{
-  font-size: 40px;
+  font-size: 5vh;
   color: #ffffff;
   line-height: 0px;
   margin-top: 10px;
 }
 .mbox h2{
-  font-size: 15px;
-  font-weight: 100;
+  font-size: 2vh;
+  font-weight: 500;
   color:hsl(228, 34%, 66%) ;
-  margin-bottom: 13px;
+  margin-bottom: 0;
   
 }
 .mbox p{
-  font-size: 14px;
+  font-size: 1.8vh;
   color: hsl(163, 72%, 41%);
-  margin-bottom: 15px;
+  margin-bottom: 1.9vh;
 }
 .sbox{
   width: 35vh;
+  height: 14vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -445,10 +443,21 @@ transform: translateX(12px);
   flex-wrap: wrap;
   
 }
+i{
+  color: #fff;
+  font-size: 2.6vh;
+}
+.top2 span{
+  font-size: 2vh;
+  color: hsl(228, 34%, 66%);
+}
 .bottom h3 {
   margin-left: 0px;
-  font-size: 17px;
+  font-size: 2.1vh;
   margin-right: 10px;
+}
+.up-{
+  font-size: 2vh;
 }
   }
   
