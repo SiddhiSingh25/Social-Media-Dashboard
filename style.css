@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    background-color: rgb(235, 235, 226);
+    background-color:  rgb(229, 129, 247);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +39,8 @@ body{
     justify-content: space-evenly;
     padding: 1vw;
     flex-direction: column;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     }
 .abc{
     height: 100%;
@@ -351,9 +353,9 @@ transform: translateX(12px);
   width: 42px;
 }
 .toggle-ball{
-  height: 2.4vh;
-  width: 2.4vh;
-  top: 3px;
+  height: 2.5vh;
+  width: 2.5vh;
+  top: 3.2px;
   left: 4px;
 }
 .top2{
@@ -452,7 +454,7 @@ i{
   color: hsl(228, 34%, 66%);
 }
 .bottom h3 {
-  margin-left: 26px;
+  margin-left: 29px;
   font-size: 2.1vh;
   margin-right: 0px;
 }
