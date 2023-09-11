@@ -355,7 +355,7 @@ transform: translateX(12px);
 .toggle-ball{
   height: 2.5vh;
   width: 2.5vh;
-  top: 3.2px;
+  top: 3.3px;
   left: 4px;
 }
 .top2{
@@ -454,7 +454,7 @@ i{
   color: hsl(228, 34%, 66%);
 }
 .bottom h3 {
-  margin-left: 29px;
+  margin-left: 32px;
   font-size: 2.1vh;
   margin-right: 0px;
 }
